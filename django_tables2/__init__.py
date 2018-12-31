@@ -6,6 +6,7 @@ from .columns import (
     CheckBoxColumn,
     DateColumn,
     DateTimeColumn,
+    EditableColumn,
     EmailColumn,
     FileColumn,
     JSONColumn,
@@ -21,7 +22,6 @@ from .utils import A
 from .paginators import LazyPaginator
 from .views import SingleTableMixin, SingleTableView, MultiTableMixin
 
-
 __version__ = "2.0.3"
 
 __all__ = (
@@ -33,6 +33,7 @@ __all__ = (
     "CheckBoxColumn",
     "DateColumn",
     "DateTimeColumn",
+    "EditableColumn",
     "EmailColumn",
     "FileColumn",
     "JSONColumn",

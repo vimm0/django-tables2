@@ -3,6 +3,7 @@ from .booleancolumn import BooleanColumn
 from .checkboxcolumn import CheckBoxColumn
 from .datecolumn import DateColumn
 from .datetimecolumn import DateTimeColumn
+from .editablecolumn import EditableColumn
 from .emailcolumn import EmailColumn
 from .filecolumn import FileColumn
 from .jsoncolumn import JSONColumn
@@ -21,6 +22,7 @@ __all__ = (
     "CheckBoxColumn",
     "DateColumn",
     "DateTimeColumn",
+    "EditableColumn",
     "EmailColumn",
     "FileColumn",
     "JSONColumn",
